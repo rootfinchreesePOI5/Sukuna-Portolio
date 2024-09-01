@@ -716,8 +716,12 @@ textarea{
     .contact form .input-box{
         display: block;
     }
-    .layer{
+    .layer p , span {
         font-family: 'Poppins';
+        font-size: 1.5rem;
+    }
+    .layer{
+        border: 1.5px solid #FF00FF;
     }
     .contact form .input-box input,
     .contact form  textarea{
@@ -739,6 +743,18 @@ textarea{
 }
 .link:hover ~ .cursor {
    display: none;
+}
+.github-link{
+    border-top: 1.5px solid #FF00FF ;
+}
+.item1 h1{
+    font-size: 4rem;
+    line-height: 3.5rem;
+}
+span{
+    color: #ff6cff;
+    font-size: 3rem;
+    font-family: 'Chewy';
 }
 }
 
