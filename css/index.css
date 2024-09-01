@@ -734,5 +734,11 @@ textarea{
 #Hire-Me{
     padding: 5rem 5% 7rem;
 }
+.cursor {
+    display: none;
+}
+.link:hover ~ .cursor {
+   display: none;
+}
 }
 
